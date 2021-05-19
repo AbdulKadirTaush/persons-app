@@ -1,0 +1,23 @@
+.PersonsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.PersonsGrid > span{
+    padding: 8px 4px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.PersonsGrid-asc{
+    background-color: green;
+}
+
+.PersonsGrid-desc{
+    background-color: red;
+}
